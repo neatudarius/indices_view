@@ -12,7 +12,7 @@ SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 
 **Implements**: `std::views::indices` proposed in [Add std::views::indices(n) (P3060R2)](https://wg21.link/P3060R2).
 
-**Status**: [Production ready. Stable API.](https://github.com/bemanproject/beman/blob/main/docs/BEMAN_LIBRARY_MATURITY_MODEL.md#production-ready-stable-api)
+**Status**: [Production ready. Stable API.](https://github.com/bemanproject/beman/blob/main/docs/beman_library_maturity_model.md#production-ready-stable-api)
 
 ## Usage
 
@@ -217,7 +217,7 @@ ctest --test-dir build
 > [!IMPORTANT]
 >
 > Beman projects are
-> [passive projects](https://github.com/bemanproject/beman/blob/main/docs/BEMAN_STANDARD.md#cmake),
+> [passive projects](https://github.com/bemanproject/beman/blob/main/docs/beman_standard.md#cmake),
 > therefore,
 > you will need to specify the C++ version via `CMAKE_CXX_STANDARD`
 > when manually configuring the project.
